@@ -14,9 +14,9 @@ export const Hero = () => {
                     <input type='text' placeholder='Enter Keyword..'/>
                 </div>
                 <div className='radio'>
-                    <input type='radio' checked />
+                    <input type='radio' name='buy-rent' checked />
                     <label>Buy</label>
-                    <input type='radio' />
+                    <input type='radio' name='buy-rent'/>
                     <label>Rent</label>
                     <button type='submit'><AiOutlineSearch className='icon'/></button>
                 </div>
