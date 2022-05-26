@@ -14,7 +14,7 @@ export const Hero = () => {
                     <input type='text' placeholder='Enter Keyword..'/>
                 </div>
                 <div className='radio'>
-                    <input type='radio' value="buy" name='buy-rent' checked />
+                    <input type='radio' value="buy" name='buy-rent'/>
                     <label for="buy">Buy</label>
                     <input type='radio' value="rent" name='buy-rent'/>
                     <label for="rent">Rent</label>
