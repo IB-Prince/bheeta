@@ -15,9 +15,9 @@ export const Hero = () => {
                 </div>
                 <div className='radio'>
                     <input type='radio' value="buy" name='buy-rent'/>
-                    <label for="buy">Buy</label>
+                    <label>Buy</label>
                     <input type='radio' value="rent" name='buy-rent'/>
-                    <label for="rent">Rent</label>
+                    <label>Rent</label>
                     <button type='submit'><AiOutlineSearch className='icon'/></button>
                 </div>
             </form>
