@@ -14,11 +14,11 @@ export const Hero = () => {
                     <input type='text' placeholder='Enter Keyword..'/>
                 </div>
                 <div className='radio'>
-                    <input type='radio' name='buy-rent' checked />
-                    <label>Buy</label>
-                    <input type='radio' name='buy-rent'/>
-                    <label>Rent</label>
-                    <button type='submit'><AiOutlineSearch className='icon'/></button>
+                    <input type='radio' id="buy" name='buy-rent' value="buy" checked />
+                    <label for="buy">Buy</label>
+                    <input type='radio' id='rent' name='buy-rent' value="rent"/>
+                    <label for="rent">Rent</label>
+                    <button type='submit' value="Submit"><AiOutlineSearch className='icon'/></button>
                 </div>
             </form>
         </div>
